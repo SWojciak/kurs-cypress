@@ -1,0 +1,9 @@
+{
+    "baseUrl": "https://www.google.com",
+    "env": {
+        "username": "Sylwia",
+        "password": "123456",
+        "username2": "Czaruś",
+        "password2": "789123"
+    }
+}
