@@ -8,7 +8,7 @@ describe('Test custom commands', () => {
 
         const homePage = new HomePage
 
-        cy.visit('http://a.testaddressbook.com/')
+        cy.visit('http://helion.pl/')
         homePage.sign_in_button().click()
     });
 

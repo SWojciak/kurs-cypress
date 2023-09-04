@@ -4,7 +4,7 @@ class HomePage {
 
     sign_in_button() 
     {
-        return cy.get('#sign-in')
+        return cy.get('#helloUser')
 
     }
 

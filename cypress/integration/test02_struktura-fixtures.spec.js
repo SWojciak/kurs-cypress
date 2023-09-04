@@ -1,2 +1,4 @@
-cy.visit('/')
-cy.get("#username").type(Cypress.env('username'))
+it('struktura', () => {
+    cy.visit('/')
+    cy.get("#gh-ac").type(Cypress.env('username'))
+});

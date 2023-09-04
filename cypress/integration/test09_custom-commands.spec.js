@@ -9,8 +9,8 @@ describe('Test custom commands', () => {
 
        
 
-        cy.visit('http://a.testaddressbook.com/')
-        cy.get('[data-test="sign-in"]').click()
+        cy.visit('https://helion.pl/')
+        cy.get('#helloUser').click()
         cy.zalogowanie(email,password)
 
     });
