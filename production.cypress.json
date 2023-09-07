@@ -2,8 +2,8 @@
     "baseUrl": "http://automationpractice.pl",
     "env": 
 {
-    "username": "tomsmith",
-    "password": "SuperSecretPassword!"
+    "username": "production@wp.pl",
+    "password": "12345678"
 },
 
 

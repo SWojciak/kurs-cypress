@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test-headless": "npx cypress run",
+    "test": "npx cypress open",
+    "test-production": "npm test --config-file production.cypress.json",
+    "test-staging": "npm test --config-file staging.cypress.json"
   },
   "author": "Sylwia",
   "license": "ISC",
