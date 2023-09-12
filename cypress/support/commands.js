@@ -10,6 +10,9 @@
 //
 //
 // -- This is a parent command --
+
+import '@4tw/cypress-drag-drop'
+
 Cypress.Commands.add('zalogowanie', (email, password) => {
 
 cy.get('[name="email"]').type(email)

@@ -12,6 +12,7 @@
   "author": "Sylwia",
   "license": "ISC",
   "devDependencies": {
+    "@4tw/cypress-drag-drop": "^2.2.4",
     "cypress": "^9.3.1"
   }
 }
