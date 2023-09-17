@@ -12,11 +12,15 @@
   "author": "Sylwia",
   "license": "ISC",
   "cypress-cucumber-processor": {
-"nonGlobalStepDefinitions": true
-},
+    "nonGlobalStepDefinitions": true
+  },
   "devDependencies": {
     "@4tw/cypress-drag-drop": "^2.2.4",
     "cypress": "^9.3.1",
-    "cypress-cucumber-preprocessor": "^4.3.1"
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-file-upload": "^5.0.8"
+  },
+  "dependencies": {
+    "cypress-downloadfile": "^1.2.3"
   }
 }
