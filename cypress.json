@@ -4,10 +4,7 @@
         "username": "tomsmith",
         "password": "SuperSecretPassword!"
     },
-    "chromeWebSecurity": false,
-    "ignoreTestFiles": [
-        "test04_pierwszy-test.spec.js",
-        "test07_hooks.spec.js",
-        "test10_custom.spec.js"
-    ]
+    "viewportWidth": 1280,
+    "viewportHeight": 720,
+    "defaultCommandTimeout": 10000
 }
